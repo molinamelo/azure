@@ -1,0 +1,26 @@
+{
+  "managedApiConnections": {
+    "keyvault": {
+      "api": {
+        "id": "/subscriptions/{subscriptionId}/providers/Microsoft.Web/locations/{location}/managedApis/keyvault"
+      },
+      "connection": {
+        "name": "keyvault"
+      },
+      "authentication": {
+        "type": "ManagedServiceIdentity"
+      }
+    },
+    "azureblob": {
+      "api": {
+        "id": "/subscriptions/{subscriptionId}/providers/Microsoft.Web/locations/{location}/managedApis/azureblob"
+      },
+      "connection": {
+        "name": "azureblob"
+      },
+      "authentication": {
+        "type": "ManagedServiceIdentity"
+      }
+    }
+  }
+}
